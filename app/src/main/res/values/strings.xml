@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hope</string>
+    <string name="quote1">“Hope is the thing with feathers that perches in the soul and sings the tune without the words and never stops at all.” – Emily Dickinson</string>
+    <string name="quote2">“Hope can be a powerful force. Maybe there’s no actual magic in it, but when you know what you hope for most and hold it like a light within you, you can make things happen, almost like magic.” – Laini Taylor</string>
+    <string name="quote3"> “We have always held to the hope, the belief, the conviction that there is a better life, a better world, beyond the horizon.” – Franklin D. Roosevelt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

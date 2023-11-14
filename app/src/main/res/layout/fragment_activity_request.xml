@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRequestFragment"
+    android:background = "@drawable/appbg2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill the from to conduct activity"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/volName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="start"
+        android:fontFamily="cursive"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/volEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:gravity="start"
+        android:fontFamily="cursive"
+        android:layout_marginStart="60dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="start"/>
+
+    <Button
+        android:id="@+id/pickDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/black"
+        android:text="Pck date"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/pickTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/black"
+        android:text="Pick Time"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/selectedDateTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="70dp"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="540dp"
+        android:layout_gravity="start"/>
+
+    <Button
+        android:id="@+id/volactSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/black"
+        android:text="Submit Request"
+        android:layout_marginTop="630dp"
+        android:layout_marginStart="60dp"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+</FrameLayout>
